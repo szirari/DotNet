@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Author.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="BookCategory.cs" />
-    <Compile Include="Counter.cs" />
-    <Compile Include="Publisher.cs" />
+    <Compile Include="m2i.DotNet\Author.cs" />
+    <Compile Include="m2i.DotNet\Book.cs" />
+    <Compile Include="m2i.DotNet\BookCategory.cs" />
+    <Compile Include="m2i.DotNet\Counter.cs" />
+    <Compile Include="m2i.DotNet\Publisher.cs" />
     <Compile Include="Class2.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="m2i.DotNet\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

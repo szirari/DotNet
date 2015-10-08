@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using m2i.DotNEt;
 
-namespace ConsoleApplication1
+namespace m2i.DotNEt
 {
     class Program
     {
