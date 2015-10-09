@@ -8,10 +8,6 @@ namespace m2i.DotNEt
 {
     public class Publisher
     {
-
-        private int id;
-        private String name;
-
         public int Id
         {
             get; set;

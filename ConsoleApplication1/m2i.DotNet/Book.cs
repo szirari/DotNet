@@ -16,7 +16,7 @@ namespace m2i.DotNEt
 
         public string  Title { get; set; }
 
-        public string Publisher { get; set; }
+        public Publisher Publisher { get; set; }
 
         public void addAuthor(Author a) { this.Authors[nbAuthor] = a; nbAuthor++; }
         public void addPublisher(Publisher p) { this.publisher = p; }
