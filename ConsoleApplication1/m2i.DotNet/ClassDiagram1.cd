@@ -34,6 +34,7 @@
       <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>m2i.DotNet\Item.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Enum Name="m2i.DotNEt.BookCategory" Collapsed="true">
     <Position X="7.25" Y="4.25" Width="1.5" />

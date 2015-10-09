@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="m2i.DotNet\IItem.cs" />
     <Compile Include="m2i.DotNet\Item.cs" />
     <Compile Include="m2i.DotNet\MediaCategory.cs" />
     <Compile Include="m2i.DotNet\Media.cs" />

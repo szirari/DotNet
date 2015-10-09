@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    public abstract class Item
+    public abstract class Item : IItem
     {
         public String Name { get; set; }
         public int Id { get; set; }
