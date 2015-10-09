@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    class Publisher
+    public class Publisher
     {
 
         private int id;

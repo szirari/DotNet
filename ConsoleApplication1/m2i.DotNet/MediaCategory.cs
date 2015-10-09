@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    public class Author
+    public enum MediaCategory
     {
-
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
+        Book,
+        Cd,
+        Dvd
     }
 }

@@ -12,7 +12,7 @@ namespace m2i.DotNEt
         static void Main(string[] args)
         {
             Book book1 = new Book();
-            Book book2 = new Book();
+            Media media = new Book();
             Author author = new Author ();
             Publisher p = new Publisher();
 
@@ -26,11 +26,13 @@ namespace m2i.DotNEt
             p.Id = 12;
             book1.addPublisher(p);
 
+            media.Price = 12;
 
 
             // book1.DateSortie = 12;
-           Console.WriteLine(book1.Category);
-           Console.ReadKey();
+            Console.WriteLine(book1.Category);
+            Console.WriteLine(media.VATPrice);
+            Console.ReadKey();
             //book2.addAuthor(author);
             //book2.Title = "Book ";
             //if (book1.Author.LastName == book2.Author.LastName)

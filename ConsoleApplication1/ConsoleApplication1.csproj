@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="m2i.DotNet\Item.cs" />
+    <Compile Include="m2i.DotNet\MediaCategory.cs" />
+    <Compile Include="m2i.DotNet\Media.cs" />
     <Compile Include="m2i.DotNet\Author.cs" />
     <Compile Include="m2i.DotNet\Book.cs" />
     <Compile Include="m2i.DotNet\BookCategory.cs" />
@@ -54,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="m2i.DotNet\ClassDiagram1.cd" />
     <None Include="UMLdotnet.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

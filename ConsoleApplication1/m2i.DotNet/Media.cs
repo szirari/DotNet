@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    public class Author
+    public abstract class Media : Item
+
     {
+         public  MediaCategory Category {get; set;}
 
-        public string FirstName { get; set; }
 
-        public string LastName { get; set; }
-
+        public abstract double VATPrice { get; }
     }
+
 }
+

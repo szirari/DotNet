@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    public class Author
+    public abstract class Item
     {
-
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
+        public String Name { get; set; }
+        public int Id { get; set; }
+        public double Price { get; set; }
     }
 }

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="m2i.DotNEt.Author" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>m2i.DotNet\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="m2i.DotNEt.Book" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAACAAAAAAAAIBAEAAAAAQAAAAFCAA=</HashCode>
+      <FileName>m2i.DotNet\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="m2i.DotNEt.Publisher" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAABAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>m2i.DotNet\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="m2i.DotNEt.Media" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>m2i.DotNet\Media.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="m2i.DotNEt.Item" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>m2i.DotNet\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="m2i.DotNEt.BookCategory" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAACAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>m2i.DotNet\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="m2i.DotNEt.MediaCategory" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>m2i.DotNet\MediaCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

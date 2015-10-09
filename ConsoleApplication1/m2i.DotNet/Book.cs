@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace m2i.DotNEt
 {
-    class Book
+    public class Book : Media
     {
-        private String title;
         public Author[] Authors { get; set; } = new Author[10]; 
-        private Publisher publisher;
         private int nbAuthor = 0;
         public BookCategory Category { get; set; }
 
@@ -23,5 +21,12 @@ namespace m2i.DotNEt
         public void addAuthor(Author a) { this.Authors[nbAuthor] = a; nbAuthor++; }
         public void addPublisher(Publisher p) { this.publisher = p; }
 
+        public override double VATPrice
+        {
+            get
+            {
+                return Price * 1.05;
+            }
+        }
     }
 }
